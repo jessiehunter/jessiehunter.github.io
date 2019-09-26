@@ -1,0 +1,83 @@
+/*This is my Stylesheet for my Art Website*/
+.homepage {
+  background-color: white;
+  background-image: url("images/shelly-sand-at-maraetai-beach.jpg"); /* The image used on the homepage 'index.html'*/
+  height: 100%; /* Full height */
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo1 {
+  /* 'Jess Hunter' logo */
+  color: black;
+  font-family: 'Kristi', cursive;
+  font-size: 62px;
+  line-height: 1.4px;
+}
+
+.logo2 {
+  /* 'a gallery of art' tagline */
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.bgcolour {
+  background-color: white;
+}
+
+.page-footer {
+  color: black;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+q {
+  /*special format for quote on About page*/
+  font-size: 25px;
+  font-family: 'Kristi', cursive;
+  color: black;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#logo-div {
+  vertical-align: middle; /*to center the logo - changed from Bootstrap Navbar left default*/
+}
+
+#logo-link {
+  margin-top: 50px;
+  z-index: 10; /*link was behind the text - could not click on link behind words - covered*/
+}
+
+#header {
+  top: 0;
+  width: 100%;
+}
+
+#footer {
+  position: relative; /* position: absolute; = bug when responsive on smaller screens */
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
